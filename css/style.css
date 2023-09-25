@@ -114,6 +114,31 @@ footer {
 
 /*************** PRODUCTOS   **************/
 
+.grids-container-catalogo { 
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5% 90% 5%;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer"
+    ;
+}
+header { 
+    grid-area: header;
+}
+main { 
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+footer {
+    grid-area: footer;
+}
+
 
 .main-productos {
     width: 100%;
