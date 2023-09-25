@@ -28,6 +28,7 @@ h1{
     flex-direction: row;
     list-style: none;
     gap: 1.5rem;
+    justify-content: right;
 }
 
 .navbar li a{
@@ -91,12 +92,24 @@ footer {
     padding: 1.5625rem 1.5rem;
     font-family: 'Raleway', sans-serif;
 }
+.section-1-footer { 
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.5rem;
+    justify-content: left;
+}
 .section-2-footer img  {
     width: 1%;
 }
 
-
-
+.section-2-footer { 
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.5rem;
+    justify-content: right;
+}
 
 
 /*************** PRODUCTOS   **************/
@@ -135,6 +148,7 @@ footer {
 }
 
 .section-1-nosotros div{
+    background-color: whitesmoke;
     width: 50%;
     height: 50%;
     border: solid black;
@@ -148,6 +162,7 @@ footer {
 }
 
 .section-2-nosotros div{
+    background-color: whitesmoke;
     width: 50%;
     height: 50%;
     border: solid black;
@@ -165,6 +180,7 @@ footer {
 .main-cuidados {
     width: 100%;
     background-color: #C08261;
+
 }
 
 .section-2-cuidados {
@@ -175,6 +191,7 @@ footer {
     justify-content: space-evenly;
 }
 .card-cuidados {
+    background-color: whitesmoke;
     width: 50%;
     height: 50%;
     border: solid black;
