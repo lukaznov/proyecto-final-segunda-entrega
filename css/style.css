@@ -76,7 +76,7 @@ footer {
     width: 100%;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 5% 45% 45% ;
+    grid-template-rows: 5% 1fr 1fr ;
     grid-template-areas: 
     "h1 h1 h1"
     "card-1 card-2 card-3"
@@ -200,11 +200,29 @@ footer {
 
 
 .main-contactos {
-    width: 100%;
     background-color: #C08261;
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 45% 45%;
+    grid-template-areas: 
+    "h1-contact h1-contact h1-contact"
+    "form  mapa ."
+    "form  mapa ."
+    ;
 }
 
+.h1-contactos {
+    grid-area: h1-contact;
+}
+.formulario {
+    grid-area: form;
+}
 
+.mapa-locales {
+    grid-area: mapa;
+}
 
 
 /*************** NOSOTROS  **************/
